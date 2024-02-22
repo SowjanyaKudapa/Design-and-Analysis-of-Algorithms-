@@ -1,0 +1,15 @@
+Time Complexity != Time Taken
+Time complexity is a function that gives relationship about how time grows as input grows.
+
+what do we consider when thinking about complexity?
+>> always looks for worstcase complexity.
+>> always look at complexity for large data
+>> always ignore constants
+>> always ignore less dominating terms like
+ (o(pow(n,3) + log(n)) --> ignore log(n)
+o(1) < o(log n) < o(n) < o(pow(n,2))
+
+
+Big O Notation: when algo has complexity of O(pow(n,3))
+it means pow(n,3) is the upper bound
+it means the graph can't exceed pow(n,3)
